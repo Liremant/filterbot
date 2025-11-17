@@ -1,0 +1,14 @@
+[project]
+name = "filterbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "telegrinder>=0.5.1",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
